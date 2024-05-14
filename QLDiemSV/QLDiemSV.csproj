@@ -73,7 +73,6 @@
     <Compile Include="Model\FCapNhatDiem.cs" />
     <Compile Include="Model\FCapNhatThongTinSV.cs" />
     <Compile Include="Model\FKhoa.cs" />
-    <Compile Include="Model\FThemLop.cs" />
     <Compile Include="Model\FThemLopSV.cs" />
     <Compile Include="Model\FXemDiem.cs" />
     <Compile Include="Model\FXemKhaoSat.cs" />
