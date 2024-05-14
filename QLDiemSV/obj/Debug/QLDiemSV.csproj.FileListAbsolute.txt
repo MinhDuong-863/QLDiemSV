@@ -11,3 +11,4 @@ D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\bin\Debug\Guna.Charts.WinForms.xml
 D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.csproj.CopyComplete
 D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.exe
 D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.pdb
+D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.FThemLop.resources
