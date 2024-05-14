@@ -61,6 +61,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox.Designer.cs">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FThemLop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     <EmbeddedResource Include="FThemLop.resx">
       <DependentUpon>FThemLop.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox.resx">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -129,11 +138,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+   <ItemGroup>
+    <None Include="Resources\teacher.png" />
+  </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\teacher.png" />
+    <None Include="Resource\warning.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\information.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resource\students.png" />

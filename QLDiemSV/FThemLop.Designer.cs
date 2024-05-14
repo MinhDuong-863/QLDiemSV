@@ -1,4 +1,4 @@
-﻿namespace QLDiemSV
+namespace QLDiemSV
 {
     partial class FThemLop
     {
