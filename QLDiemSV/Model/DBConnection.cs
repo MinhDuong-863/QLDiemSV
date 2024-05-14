@@ -4,29 +4,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class DBConnection {
+public class DBConnection
+{
 
-    public DBConnection() {
+    public DBConnection()
+    {
     }
 
     /// <summary>
-    /// @param sqlQuery
+    /// @param sqlQuery 
+    /// @return
     /// </summary>
-    public void LayDanhSach(string sqlQuery) {
+    public DataTable LayDanhSach(string sqlQuery)
+    {
         // TODO implement here
+        return null;
     }
 
     /// <summary>
-    /// @param sqlQuery
+    /// @param sqlQuery 
+    /// @return
     /// </summary>
-    public void LayThongTin(string sqlQuery) {
+    public DataTable LayThongTin(string sqlQuery)
+    {
         // TODO implement here
+        return null;
     }
 
     /// <summary>
     /// @param sqlQuery
     /// </summary>
-    public void ThucThi(string sqlQuery) {
+    public void ThucThi(string sqlQuery)
+    {
         // TODO implement here
     }
 

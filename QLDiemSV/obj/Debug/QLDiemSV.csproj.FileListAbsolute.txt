@@ -12,3 +12,4 @@ D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.csproj.CopyComplet
 D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.exe
 D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.pdb
 D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.FThemLop.resources
+D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.Form1.resources
