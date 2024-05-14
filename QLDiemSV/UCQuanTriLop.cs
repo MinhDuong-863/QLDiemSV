@@ -42,5 +42,17 @@ namespace QLDiemSV
             this.gvLop.DataSource = lopDAO.LayDanhSachLop();
             gvLop.ScrollBars = ScrollBars.Both;
         }
+
+        private void gvLop_DoubleClick_1(object sender, EventArgs e)
+        {
+            txtMaLop.Text = gvLop.CurrentRow.Cells[0].Value.ToString();
+            txtTenLop.Text = gvLop.CurrentRow.Cells[1].Value.ToString();
+            txtMonHoc.Text = gvLop.CurrentRow.Cells[2].Value.ToString();
+            txtLoaiLop.Text = gvLop.CurrentRow.Cells[3].Value.ToString();
+            txtSSV.Text = gvLop.CurrentRow.Cells[4].Value.ToString();
+            txtHK.Text = gvLop.CurrentRow.Cells[5].Value.ToString();
+            txtNamHoc.Text = gvLop.CurrentRow.Cells[6].Value.ToString();
+            txtGiangVien.Text = gvLop.CurrentRow.Cells[7].Value.ToString();
+        }
     }
 }

@@ -22,7 +22,7 @@ public class LopDAO {
     /// @return
     /// </summary>
     public DataTable LayDanhSachLop() {
-        string sqlStr = string.Format("");
+        string sqlStr = string.Format("select MaLop, TenLop, TenMon, LoaiLop, SL, HocKy, NamHoc, HoTen\r\n  from LOP, GIANGVIEN, MON\r\n  where MonHoc = MaMon and GV = MaGV");
         return dbConn.LayDanhSach(sqlStr);
     }
 

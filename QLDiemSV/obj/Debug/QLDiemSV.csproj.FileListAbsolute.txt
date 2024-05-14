@@ -29,3 +29,4 @@ D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\obj\Debug\QLDie
 D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.csproj.Up2Date
 D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.exe
 D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.pdb
+D:\VisualStudioWorkSpace\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.UCQuanTriLop.resources

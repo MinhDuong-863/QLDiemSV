@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using static Guna.UI2.WinForms.Suite.Descriptions;
 
 public class DBConnection {
-    SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-JGJ5K3KB;Initial Catalog=QuanLySinhVien;Persist Security Info=True;User ID=sa;Password=123456;Integrated Security=True");
+    SqlConnection conn = new SqlConnection(@"Data Source=.;Initial Catalog=QuanLySinhVien;Integrated Security=True;Encrypt=False");
 
     public DBConnection()
     {
