@@ -12,6 +12,7 @@ namespace QLDiemSV
 {
     public partial class UCQuanTriLop : UserControl
     {
+        LopDAO lopDAO = new LopDAO();
         public UCQuanTriLop()
         {
             InitializeComponent();
@@ -21,7 +22,7 @@ namespace QLDiemSV
         {
             FThemLop form = new FThemLop();
             form.ShowDialog();
-            //UCQuanTriLop_Load(sender, e);
+            UCQuanTriLop_Load(sender, e);
             ClearControl();
         }
         private void ClearControl()
@@ -38,7 +39,7 @@ namespace QLDiemSV
 
         private void UCQuanTriLop_Load(object sender, EventArgs e)
         {
-            //this.gvLop.DataSource = lopBLL.FindAllThongTinLop();
+            this.gvLop.DataSource = lopDAO.LayDanhSachLop();
             gvLop.ScrollBars = ScrollBars.Both;
         }
     }

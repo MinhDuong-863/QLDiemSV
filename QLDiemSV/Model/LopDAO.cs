@@ -1,10 +1,12 @@
 
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 
 public class LopDAO {
+    DBConnection dbConn = new DBConnection();
 
     public LopDAO() {
     }
@@ -20,8 +22,8 @@ public class LopDAO {
     /// @return
     /// </summary>
     public DataTable LayDanhSachLop() {
-        // TODO implement here
-        return null;
+        string sqlStr = string.Format("");
+        return dbConn.LayDanhSach(sqlStr);
     }
 
     /// <summary>
