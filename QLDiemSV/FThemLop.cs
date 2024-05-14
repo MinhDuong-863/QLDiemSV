@@ -28,33 +28,33 @@ namespace QLDiemSV
             bool kqTen = kiemTraTen();
             if (kqTen == false)
             {
-                MessageBox.Show("Tên lớp học không hợp lệ!", "Thông báo");
+                DialogResult result = MessageBox.Show("Tên lớp học không hợp lệ!", "ANNOUNCEMENT");
             }
             else
             {
                 bool kqPhong = kiemTraPhong();
                 if (kqPhong == false)
                 {
-                    MessageBox.Show("Phòng học không đủ sức chứa!", "Thông báo");
+                    DialogResult result = MessageBox.Show("Phòng học không đủ sức chứa!", "ANNOUNCEMENT");
                 }
                 else
                 {
                     bool kqBuoi = kiemTraBuoi();
                     if(kqBuoi == false)
                     {
-                        MessageBox.Show("Phòng học đã tồn lại lớp học khác!", "Thông báo");
+                        DialogResult result = MessageBox.Show("Phòng học đã tồn lại lớp học khác!", "ANNOUNCEMENT");
                     }
                     else
                     {
                         bool kqGV = kiemTraGV();
                         if (kqBuoi == false)
                         {
-                            MessageBox.Show("Giảng viên đã có lịch dạy trước đó!", "Thông báo");
+                            DialogResult result = MessageBox.Show("Giảng viên đã có lịch dạy trước đó!", "ANNOUNCEMENT");
                         }
                         else
                         {
-                            DialogResult result = MessageBox.Show("Bạn có muốn thêm lớp không?", "Xác Nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                            if (result == DialogResult.Yes)
+                            DialogResult result = MessageBox.Show("Bạn có muốn thêm lớp không?", "ANNOUNCEMENT");
+                            if (result == DialogResult.OK)
                             {
                                 Lop lop = new Lop(txtTenLop.Text, cmbLoaiLop.SelectedItem.ToString(),Convert.ToInt32(cmbSL.SelectedItem.ToString()), Convert.ToInt32(cmbHK.SelectedItem.ToString()), Convert.ToInt32(cmbNamHoc.SelectedItem.ToString()), (int)cmbGV.SelectedValue, (int)cmbMH.SelectedValue);
                                 lopDAO.Them(lop,Convert.ToInt32(cmbPhongHoc.Text), Convert.ToInt32(cmbThu.SelectedItem.ToString()), Convert.ToInt32(cmbCaHoc.SelectedItem.ToString()));
@@ -144,7 +144,8 @@ namespace QLDiemSV
 
         private void FThemLop_Load(object sender, EventArgs e)
         {
-
+            gvDiemLop.DataSource = lopDAO.LayDanhSachLop();
+            gvDiemLop.ScrollBars = ScrollBars.Both;
             lopDAO.LayDanhSachLop();
             cmbMH.DataSource = monDAO.LayDanhSachMon();
             cmbMH.ValueMember = "MaMon";

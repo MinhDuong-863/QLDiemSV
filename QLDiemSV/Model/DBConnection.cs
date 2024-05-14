@@ -1,7 +1,8 @@
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -71,10 +72,23 @@ public class DBConnection {
     /// </summary>
     public void ThucThi(string sqlQuery)
     {
-        conn.Open();
-        SqlCommand cmd = new SqlCommand(sqlQuery, conn);
-        cmd.ExecuteNonQuery();
-        conn.Close();
+        try
+        {
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(sqlQuery, conn);
+            if (cmd.ExecuteNonQuery() > 0)
+            {
+                DialogResult result = MessageBox.Show("Thành Công", "INFORMATION");
+            }
+        }
+        catch (Exception ex)
+        {
+            DialogResult result = MessageBox.Show("Thất bại" + ex);
+        }
+        finally
+        {
+            conn.Close();
+        }
     }
 
 }

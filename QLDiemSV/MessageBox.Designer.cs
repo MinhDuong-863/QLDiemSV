@@ -150,6 +150,7 @@
             this.Controls.Add(this.btnYes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MessageBox";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

@@ -29,3 +29,4 @@ D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\bin\Debug\Guna.
 D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\bin\Debug\Guna.UI2.dll
 D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\bin\Debug\Guna.Charts.WinForms.xml
 D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.csproj.Up2Date
+D:\TaiLieu\ThietKePhanMemHuongDoiTuong\Project\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.UCQuanTriLop.resources
