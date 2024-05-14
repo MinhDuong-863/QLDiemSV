@@ -72,7 +72,10 @@ public class DBConnection {
     /// </summary>
     public void ThucThi(string sqlQuery)
     {
-        // TODO implement here
+        conn.Open();
+        SqlCommand cmd = new SqlCommand(sqlQuery, conn);
+        cmd.ExecuteNonQuery();
+        conn.Close();
     }
 
 }

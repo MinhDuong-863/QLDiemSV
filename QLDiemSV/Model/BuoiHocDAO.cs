@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 
 public class BuoiHocDAO {
+    DBConnection dbConn = new DBConnection();
 
     public BuoiHocDAO() {
     }
@@ -20,5 +21,9 @@ public class BuoiHocDAO {
         // TODO implement here
         return null;
     }
-
+    public DataTable LayDanhSachBuoi()
+    {
+        string sqlQuery = string.Format("SELECT * FROM BUOIHOC");
+        return dbConn.LayDanhSach(sqlQuery);
+    }
 }

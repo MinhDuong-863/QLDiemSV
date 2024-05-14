@@ -14,8 +14,9 @@ public class LopDAO {
     /// <summary>
     /// @param lop
     /// </summary>
-    public void Them(Lop lop) {
-        // TODO implement here
+    public void Them(Lop lop, int phong, int thu, int ca) {
+        string sqlQuery = string.Format("INSERT INTO LOP (TenLop, LoaiLop, SL, HocKy, NamHoc, GV, MonHoc) VALUES ('{0}', '{1}', {2}, {3}, {4}, {5}, {6}); INSERT INTO BUOIHOC ( PhongHoc, Thu, Ca) VALUES ({7}, {8}, {9})", lop.TenLopHoc, lop.LoaiLopHoc, lop.SoSVToiDa, lop.HocKy, lop.NamHoc, lop.MaGV, lop.MaMon, phong, thu, ca);
+        dbConn.ThucThi(sqlQuery);
     }
 
     /// <summary>

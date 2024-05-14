@@ -33,4 +33,52 @@ public class Lop
 
     private int maMon;
 
+    public int MaLop
+    {
+        get { return maLop; }
+        set { maLop = value; }
+    }
+
+    public string TenLopHoc
+    {
+        get { return tenLopHoc; }
+        set { tenLopHoc = value; }
+    }
+
+    public string LoaiLopHoc
+    {
+        get { return loaiLopHoc; }
+        set { loaiLopHoc = value; }
+    }
+
+    public int SoSVToiDa
+    {
+        get { return soSVToiDa; }
+        set { soSVToiDa = value; }
+    }
+
+    public int HocKy
+    {
+        get { return hocKy; }
+        set { hocKy = value; }
+    }
+
+    public int NamHoc
+    {
+        get { return namHoc; }
+        set { namHoc = value; }
+    }
+
+    public int MaGV
+    {
+        get { return maGV; }
+        set { maGV = value; }
+    }
+
+    public int MaMon
+    {
+        get { return maMon; }
+        set { maMon = value; }
+    }
+
 }

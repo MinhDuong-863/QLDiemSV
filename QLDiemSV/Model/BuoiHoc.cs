@@ -7,6 +7,7 @@ using System.Text;
 public class BuoiHoc {
 
     public BuoiHoc() {
+
     }
 
     private int maLop;

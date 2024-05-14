@@ -26,3 +26,5 @@ F:\Tai_Lieu\OOSD\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.csproj.CoreCompileInputs.c
 F:\Tai_Lieu\OOSD\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.csproj.CopyComplete
 F:\Tai_Lieu\OOSD\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.exe
 F:\Tai_Lieu\OOSD\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.pdb
+F:\Tai_Lieu\OOSD\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.Form1.resources
+F:\Tai_Lieu\OOSD\QLDiemSV\QLDiemSV\obj\Debug\QLDiemSV.UCQuanTriLop.resources
