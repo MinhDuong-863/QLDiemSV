@@ -4,13 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Phong {
+public class Phong
+{
 
-    public Phong() {
+    public Phong()
+    {
     }
 
-    public void KiemTraPhong() {
-        // TODO implement here
-    }
+    private int maPhong;
+
+    private int sucChua;
 
 }

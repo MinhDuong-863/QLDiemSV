@@ -69,7 +69,6 @@
     </Compile>
     <Compile Include="Model\BuoiHoc.cs" />
     <Compile Include="Model\BuoiHocDAO.cs" />
-    <Compile Include="Model\DataTable.cs" />
     <Compile Include="Model\DBConnection.cs" />
     <Compile Include="Model\FCapNhatDiem.cs" />
     <Compile Include="Model\FCapNhatThongTinSV.cs" />
@@ -87,14 +86,9 @@
     <Compile Include="Model\LopDAO.cs" />
     <Compile Include="Model\MessageBox.cs" />
     <Compile Include="Model\MonHocDAO.cs" />
-    <Compile Include="Model\Pattern.cs" />
     <Compile Include="Model\Phong.cs" />
     <Compile Include="Model\SinhVien.cs" />
     <Compile Include="Model\SinhVienDAO.cs" />
-    <Compile Include="Model\SQLCommand.cs" />
-    <Compile Include="Model\SQLConnection.cs" />
-    <Compile Include="Model\SqlDataAdapter.cs" />
-    <Compile Include="Model\String.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
