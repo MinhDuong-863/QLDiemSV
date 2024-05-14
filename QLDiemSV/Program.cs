@@ -16,7 +16,7 @@ namespace QLDiemSV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FThemLop());
+            Application.Run(new Form1());
         }
     }
 }

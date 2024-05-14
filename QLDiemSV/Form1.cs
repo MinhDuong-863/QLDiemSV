@@ -21,5 +21,12 @@ namespace QLDiemSV
         {
 
         }
+
+        private void btnLop_Click(object sender, EventArgs e)
+        {
+            pnlNoiDung.Controls.Clear();
+            UCQuanTriLop uc = new UCQuanTriLop();
+            pnlNoiDung.Controls.Add(uc);
+        }
     }
 }

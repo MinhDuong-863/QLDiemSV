@@ -42,6 +42,8 @@
             this.btnDangXuat = new Guna.UI2.WinForms.Guna2Button();
             this.btnLop = new Guna.UI2.WinForms.Guna2Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,10 +52,10 @@
             // 
             this.pnlNoiDung.AutoScroll = true;
             this.pnlNoiDung.BackColor = System.Drawing.Color.Transparent;
-            this.pnlNoiDung.Location = new System.Drawing.Point(362, 52);
+            this.pnlNoiDung.Location = new System.Drawing.Point(322, 42);
             this.pnlNoiDung.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlNoiDung.Name = "pnlNoiDung";
-            this.pnlNoiDung.Size = new System.Drawing.Size(1350, 946);
+            this.pnlNoiDung.Size = new System.Drawing.Size(1200, 757);
             this.pnlNoiDung.TabIndex = 134;
             // 
             // guna2ControlBox1
@@ -65,10 +67,9 @@
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(179)))), ((int)(((byte)(249)))));
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.Red;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(2165, 15);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1924, 12);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(37, 36);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(33, 29);
             this.guna2ControlBox1.TabIndex = 136;
             // 
             // guna2ControlBox2
@@ -80,10 +81,9 @@
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(179)))), ((int)(((byte)(249)))));
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(2092, 15);
-            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(1860, 12);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.Size = new System.Drawing.Size(37, 36);
+            this.guna2ControlBox2.Size = new System.Drawing.Size(33, 29);
             this.guna2ControlBox2.TabIndex = 137;
             // 
             // guna2Panel2
@@ -98,10 +98,9 @@
             this.guna2Panel2.Controls.Add(this.btnDangXuat);
             this.guna2Panel2.Controls.Add(this.btnLop);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(179)))), ((int)(((byte)(249)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(-23, -1);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Panel2.Location = new System.Drawing.Point(-20, -1);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(386, 1000);
+            this.guna2Panel2.Size = new System.Drawing.Size(343, 800);
             this.guna2Panel2.TabIndex = 135;
             // 
             // btnHocVien
@@ -122,13 +121,13 @@
             this.btnHocVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
             this.btnHocVien.HoverState.FillColor = System.Drawing.Color.White;
             this.btnHocVien.HoverState.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHocVien.Image = global::QLDiemSV.Properties.Resources.students;
             this.btnHocVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHocVien.ImageOffset = new System.Drawing.Point(60, 0);
             this.btnHocVien.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnHocVien.Location = new System.Drawing.Point(-32, 298);
-            this.btnHocVien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHocVien.Location = new System.Drawing.Point(-28, 238);
             this.btnHocVien.Name = "btnHocVien";
-            this.btnHocVien.Size = new System.Drawing.Size(395, 78);
+            this.btnHocVien.Size = new System.Drawing.Size(351, 62);
             this.btnHocVien.TabIndex = 119;
             this.btnHocVien.Text = "Students";
             this.btnHocVien.TextOffset = new System.Drawing.Point(50, 0);
@@ -152,13 +151,13 @@
             this.btnGiaoVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
             this.btnGiaoVien.HoverState.FillColor = System.Drawing.Color.White;
             this.btnGiaoVien.HoverState.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGiaoVien.Image = global::QLDiemSV.Properties.Resources.teacher;
             this.btnGiaoVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGiaoVien.ImageOffset = new System.Drawing.Point(60, 0);
             this.btnGiaoVien.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnGiaoVien.Location = new System.Drawing.Point(-32, 399);
-            this.btnGiaoVien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnGiaoVien.Location = new System.Drawing.Point(-28, 319);
             this.btnGiaoVien.Name = "btnGiaoVien";
-            this.btnGiaoVien.Size = new System.Drawing.Size(395, 78);
+            this.btnGiaoVien.Size = new System.Drawing.Size(351, 62);
             this.btnGiaoVien.TabIndex = 118;
             this.btnGiaoVien.Text = "Teachers";
             this.btnGiaoVien.TextOffset = new System.Drawing.Point(50, 0);
@@ -168,10 +167,9 @@
             // 
             this.guna2PictureBox1.Image = global::QLDiemSV.Properties.Resources.Logo;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(120, 50);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(107, 40);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(161, 162);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(143, 130);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -194,13 +192,13 @@
             this.btnKhoaHoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
             this.btnKhoaHoc.HoverState.FillColor = System.Drawing.Color.White;
             this.btnKhoaHoc.HoverState.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhoaHoc.Image = global::QLDiemSV.Properties.Resources.score;
             this.btnKhoaHoc.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnKhoaHoc.ImageOffset = new System.Drawing.Point(60, 0);
             this.btnKhoaHoc.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnKhoaHoc.Location = new System.Drawing.Point(-32, 500);
-            this.btnKhoaHoc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnKhoaHoc.Location = new System.Drawing.Point(-28, 400);
             this.btnKhoaHoc.Name = "btnKhoaHoc";
-            this.btnKhoaHoc.Size = new System.Drawing.Size(395, 78);
+            this.btnKhoaHoc.Size = new System.Drawing.Size(351, 62);
             this.btnKhoaHoc.TabIndex = 110;
             this.btnKhoaHoc.Text = "Score";
             this.btnKhoaHoc.TextOffset = new System.Drawing.Point(50, 0);
@@ -224,13 +222,13 @@
             this.btnTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
             this.btnTaiKhoan.HoverState.FillColor = System.Drawing.Color.White;
             this.btnTaiKhoan.HoverState.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaiKhoan.Image = global::QLDiemSV.Properties.Resources.account;
             this.btnTaiKhoan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTaiKhoan.ImageOffset = new System.Drawing.Point(60, 0);
             this.btnTaiKhoan.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTaiKhoan.Location = new System.Drawing.Point(-32, 601);
-            this.btnTaiKhoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnTaiKhoan.Location = new System.Drawing.Point(-28, 481);
             this.btnTaiKhoan.Name = "btnTaiKhoan";
-            this.btnTaiKhoan.Size = new System.Drawing.Size(395, 78);
+            this.btnTaiKhoan.Size = new System.Drawing.Size(351, 62);
             this.btnTaiKhoan.TabIndex = 113;
             this.btnTaiKhoan.Text = "Accounts";
             this.btnTaiKhoan.TextOffset = new System.Drawing.Point(50, 0);
@@ -254,13 +252,13 @@
             this.btnDangXuat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
             this.btnDangXuat.HoverState.FillColor = System.Drawing.Color.White;
             this.btnDangXuat.HoverState.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangXuat.Image = global::QLDiemSV.Properties.Resources.logout;
             this.btnDangXuat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDangXuat.ImageOffset = new System.Drawing.Point(60, 0);
             this.btnDangXuat.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnDangXuat.Location = new System.Drawing.Point(-32, 804);
-            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDangXuat.Location = new System.Drawing.Point(-28, 643);
             this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(395, 78);
+            this.btnDangXuat.Size = new System.Drawing.Size(351, 62);
             this.btnDangXuat.TabIndex = 111;
             this.btnDangXuat.Text = "Log out";
             this.btnDangXuat.TextOffset = new System.Drawing.Point(50, 0);
@@ -284,28 +282,59 @@
             this.btnLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
             this.btnLop.HoverState.FillColor = System.Drawing.Color.White;
             this.btnLop.HoverState.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLop.Image = global::QLDiemSV.Properties.Resources.classroom;
             this.btnLop.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLop.ImageOffset = new System.Drawing.Point(60, 0);
             this.btnLop.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnLop.Location = new System.Drawing.Point(-32, 702);
-            this.btnLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLop.Location = new System.Drawing.Point(-28, 562);
             this.btnLop.Name = "btnLop";
-            this.btnLop.Size = new System.Drawing.Size(395, 78);
+            this.btnLop.Size = new System.Drawing.Size(351, 62);
             this.btnLop.TabIndex = 112;
             this.btnLop.Text = "Classrooms";
             this.btnLop.TextOffset = new System.Drawing.Point(50, 0);
             this.btnLop.UseTransparentBackground = true;
+            this.btnLop.Click += new System.EventHandler(this.btnLop_Click);
+            // 
+            // guna2ControlBox3
+            // 
+            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2ControlBox3.BorderColor = System.Drawing.Color.LightSkyBlue;
+            this.guna2ControlBox3.BorderRadius = 5;
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.guna2ControlBox3.HoverState.FillColor = System.Drawing.Color.Red;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox3.Location = new System.Drawing.Point(1461, 5);
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.Size = new System.Drawing.Size(33, 32);
+            this.guna2ControlBox3.TabIndex = 379;
+            // 
+            // guna2ControlBox4
+            // 
+            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2ControlBox4.BorderRadius = 5;
+            this.guna2ControlBox4.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox4.Location = new System.Drawing.Point(1422, 5);
+            this.guna2ControlBox4.Name = "guna2ControlBox4";
+            this.guna2ControlBox4.Size = new System.Drawing.Size(33, 32);
+            this.guna2ControlBox4.TabIndex = 380;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1688, 998);
+            this.ClientSize = new System.Drawing.Size(1500, 798);
+            this.Controls.Add(this.guna2ControlBox3);
+            this.Controls.Add(this.guna2ControlBox4);
             this.Controls.Add(this.pnlNoiDung);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2ControlBox2);
             this.Controls.Add(this.guna2Panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -330,6 +359,8 @@
         private Guna.UI2.WinForms.Guna2Button btnDangXuat;
         private Guna.UI2.WinForms.Guna2Button btnLop;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
     }
 }
 
